@@ -1,0 +1,76 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "line": 7,
+        "name": "navigation to correct url",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "the user navigates to the correct url",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "the loaded page displays \"Let\u0027s Tea\" title",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "user able to send email",
+        "description": "",
+        "id": "user-ability-to-send-email-on-teapassion-website-via-lets-talk-tea-page;user-able-to-send-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "the user is able to see the Lets Talk tea link",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "user ability to send email on TeaPassion website via Lets Talk Tea Page",
+    "description": "",
+    "id": "user-ability-to-send-email-on-teapassion-website-via-lets-talk-tea-page",
+    "keyword": "Feature",
+    "uri": "C:/Users/Owner/eclipse-workspace/FSCucumberSolution/src/test/resources/features/letsTalkTea.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

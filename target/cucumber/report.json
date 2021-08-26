@@ -1,0 +1,86 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "line": 7,
+        "name": "navigation to correct url",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1040272500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user navigates to the url",
+            "match": {
+              "location": "stepDefinition.EmailModelStepDef.the_user_navigates_to_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user is taken to the correct welcome page",
+            "match": {
+              "location": "stepDefinition.EmailModelStepDef.the_user_is_taken_to_the_correct_welcome_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-25T16:38:20.608Z",
+        "line": 12,
+        "name": "user able to send email",
+        "description": "",
+        "id": "user-ability-to-send-email-on-teapassion-website-via-lets-talk-tea-page;user-able-to-send-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user is able to see the Lets Talk tea link",
+            "match": {
+              "location": "stepDefinition.EmailModelStepDef.the_user_is_able_to_see_the_Lets_Talk_tea_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "user ability to send email on TeaPassion website via Lets Talk Tea Page",
+    "description": "",
+    "id": "user-ability-to-send-email-on-teapassion-website-via-lets-talk-tea-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/letsTalkTea.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
